@@ -12,5 +12,5 @@ runs:
     - run: |
         find ${{ inputs.directory}} -name "*.map" -delete
         find ${{ inputs.directory}} -name "*.js" | xargs sed -i -e '/\/\/# sourceMappingURL.*/d'
-        find ${{ inputs.directory}} "*.css" | xargs sed -i -e '/\/\*# sourceMappingURL.*/d'
+        find ${{ inputs.directory}} -name "*.css" | xargs sed -i -e '/\/\*# sourceMappingURL.*/d'
       shell: bash
