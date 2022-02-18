@@ -1,0 +1,7 @@
+name: "Delete Source Map Action"
+description: "Delete source map of JavaScript and CSS."
+author: "Ubie, Inc."
+inputs:
+  directory:
+    required: true
+    description: "The directory that contains source map."
