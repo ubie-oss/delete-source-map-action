@@ -1,6 +1,10 @@
 name: "Delete Source Map Action"
 description: "Delete source map of JavaScript and CSS."
 author: "Ubie, Inc."
+branding:
+  icon: "delete"
+  color: "yellow"
+
 inputs:
   directory:
     required: true
