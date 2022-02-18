@@ -1,5 +1,5 @@
 name: "Delete Source Map Action"
-description: "Delete source map of JavaScript and CSS."
+description: "Delete source map from web frontend distribution."
 author: "Ubie, Inc."
 branding:
   icon: "delete"
